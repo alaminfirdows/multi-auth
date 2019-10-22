@@ -36,11 +36,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerInstallCommand()
     {
-        $this->app->singleton('command.alaminfirdows.multi-auth.install', function ($app) {
+        $this->app->singleton('command.alaminfirdows.multiauth.install', function ($app) {
             return $app['AlAminFirdows\MultiAuth\Commands\MultiAuthInstallCommand'];
         });
 
-        $this->commands('command.alaminfirdows.multi-auth.install');
+        $this->commands('command.alaminfirdows.multiauth.install');
     }
 
     /**
@@ -48,11 +48,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthSettingsInstallCommand()
     {
-        $this->app->singleton('command.alaminfirdows.multi-auth.settings', function ($app) {
+        $this->app->singleton('command.alaminfirdows.multiauth.settings', function ($app) {
             return $app['AlAminFirdows\MultiAuth\Commands\AuthSettingsInstallCommand'];
         });
 
-        $this->commands('command.alaminfirdows.multi-auth.settings');
+        $this->commands('command.alaminfirdows.multiauth.settings');
     }
 
     /**
@@ -60,11 +60,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthFilesInstallCommand()
     {
-        $this->app->singleton('command.alaminfirdows.multi-auth.files', function ($app) {
+        $this->app->singleton('command.alaminfirdows.multiauth.files', function ($app) {
             return $app['AlAminFirdows\MultiAuth\Commands\AuthFilesInstallCommand'];
         });
 
-        $this->commands('command.alaminfirdows.multi-auth.files');
+        $this->commands('command.alaminfirdows.multiauth.files');
     }
 
     /**
@@ -72,11 +72,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthModelInstallCommand()
     {
-        $this->app->singleton('command.alaminfirdows.multi-auth.model', function ($app) {
+        $this->app->singleton('command.alaminfirdows.multiauth.model', function ($app) {
             return $app['AlAminFirdows\MultiAuth\Commands\AuthModelInstallCommand'];
         });
 
-        $this->commands('command.alaminfirdows.multi-auth.model');
+        $this->commands('command.alaminfirdows.multiauth.model');
     }
 
     /**
@@ -84,10 +84,10 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthViewsInstallCommand()
     {
-        $this->app->singleton('command.alaminfirdows.multi-auth.views', function ($app) {
+        $this->app->singleton('command.alaminfirdows.multiauth.views', function ($app) {
             return $app['AlAminFirdows\MultiAuth\Commands\AuthViewsInstallCommand'];
         });
 
-        $this->commands('command.alaminfirdows.multi-auth.views');
+        $this->commands('command.alaminfirdows.multiauth.views');
     }
 }
