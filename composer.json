@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hesto\\MultiAuth\\": "src/"
+            "AlAminFirdows\\MultiAuth\\": "src/"
         }
     }
 }

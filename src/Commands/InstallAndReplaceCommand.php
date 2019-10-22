@@ -1,12 +1,12 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use Hesto\MultiAuth\Commands\Traits\CanReplaceKeywords;
+use AlAminFirdows\MultiAuth\Commands\Traits\CanReplaceKeywords;
 use Illuminate\Support\Str;
 
 abstract class InstallAndReplaceCommand extends InstallCommand

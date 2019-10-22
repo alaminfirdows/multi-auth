@@ -1,11 +1,11 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
-use Hesto\MultiAuth\Commands\InstallFilesCommand;
-use Hesto\MultiAuth\Commands\Traits\OverridesCanReplaceKeywords;
-use Hesto\MultiAuth\Commands\Traits\OverridesGetArguments;
-use Hesto\MultiAuth\Commands\Traits\ParsesServiceInput;
+use AlAminFirdows\MultiAuth\Commands\InstallFilesCommand;
+use AlAminFirdows\MultiAuth\Commands\Traits\OverridesCanReplaceKeywords;
+use AlAminFirdows\MultiAuth\Commands\Traits\OverridesGetArguments;
+use AlAminFirdows\MultiAuth\Commands\Traits\ParsesServiceInput;
 use Symfony\Component\Console\Input\InputOption;
 
 

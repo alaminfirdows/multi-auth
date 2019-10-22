@@ -1,11 +1,11 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
-use Hesto\MultiAuth\Commands\InstallAndReplaceCommand;
-use Hesto\MultiAuth\Commands\Traits\OverridesCanReplaceKeywords;
-use Hesto\MultiAuth\Commands\Traits\OverridesGetArguments;
-use Hesto\MultiAuth\Commands\Traits\ParsesServiceInput;
+use AlAminFirdows\MultiAuth\Commands\InstallAndReplaceCommand;
+use AlAminFirdows\MultiAuth\Commands\Traits\OverridesCanReplaceKeywords;
+use AlAminFirdows\MultiAuth\Commands\Traits\OverridesGetArguments;
+use AlAminFirdows\MultiAuth\Commands\Traits\ParsesServiceInput;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 use SplFileInfo;

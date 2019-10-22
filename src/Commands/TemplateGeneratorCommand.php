@@ -1,8 +1,8 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
-use Hesto\MultiAuth\Traits\CanReplaceKeywords;
+use AlAminFirdows\MultiAuth\Traits\CanReplaceKeywords;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
 use Illuminate\Filesystem\Filesystem;
 use SplFileInfo;

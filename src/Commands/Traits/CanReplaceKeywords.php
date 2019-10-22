@@ -1,6 +1,6 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands\Traits;
+namespace AlAminFirdows\MultiAuth\Commands\Traits;
 
 
 trait CanReplaceKeywords

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hesto\MultiAuth\Commands;
+namespace AlAminFirdows\MultiAuth\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hesto\MultiAuth;
+namespace AlAminFirdows\MultiAuth;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -36,11 +36,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerInstallCommand()
     {
-        $this->app->singleton('command.hesto.multi-auth.install', function ($app) {
-            return $app['Hesto\MultiAuth\Commands\MultiAuthInstallCommand'];
+        $this->app->singleton('command.alaminfirdows.multi-auth.install', function ($app) {
+            return $app['AlAminFirdows\MultiAuth\Commands\MultiAuthInstallCommand'];
         });
 
-        $this->commands('command.hesto.multi-auth.install');
+        $this->commands('command.alaminfirdows.multi-auth.install');
     }
 
     /**
@@ -48,11 +48,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthSettingsInstallCommand()
     {
-        $this->app->singleton('command.hesto.multi-auth.settings', function ($app) {
-            return $app['Hesto\MultiAuth\Commands\AuthSettingsInstallCommand'];
+        $this->app->singleton('command.alaminfirdows.multi-auth.settings', function ($app) {
+            return $app['AlAminFirdows\MultiAuth\Commands\AuthSettingsInstallCommand'];
         });
 
-        $this->commands('command.hesto.multi-auth.settings');
+        $this->commands('command.alaminfirdows.multi-auth.settings');
     }
 
     /**
@@ -60,11 +60,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthFilesInstallCommand()
     {
-        $this->app->singleton('command.hesto.multi-auth.files', function ($app) {
-            return $app['Hesto\MultiAuth\Commands\AuthFilesInstallCommand'];
+        $this->app->singleton('command.alaminfirdows.multi-auth.files', function ($app) {
+            return $app['AlAminFirdows\MultiAuth\Commands\AuthFilesInstallCommand'];
         });
 
-        $this->commands('command.hesto.multi-auth.files');
+        $this->commands('command.alaminfirdows.multi-auth.files');
     }
 
     /**
@@ -72,11 +72,11 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthModelInstallCommand()
     {
-        $this->app->singleton('command.hesto.multi-auth.model', function ($app) {
-            return $app['Hesto\MultiAuth\Commands\AuthModelInstallCommand'];
+        $this->app->singleton('command.alaminfirdows.multi-auth.model', function ($app) {
+            return $app['AlAminFirdows\MultiAuth\Commands\AuthModelInstallCommand'];
         });
 
-        $this->commands('command.hesto.multi-auth.model');
+        $this->commands('command.alaminfirdows.multi-auth.model');
     }
 
     /**
@@ -84,11 +84,10 @@ class MultiAuthServiceProvider extends ServiceProvider
      */
     private function registerAuthViewsInstallCommand()
     {
-        $this->app->singleton('command.hesto.multi-auth.views', function ($app) {
-            return $app['Hesto\MultiAuth\Commands\AuthViewsInstallCommand'];
+        $this->app->singleton('command.alaminfirdows.multi-auth.views', function ($app) {
+            return $app['AlAminFirdows\MultiAuth\Commands\AuthViewsInstallCommand'];
         });
 
-        $this->commands('command.hesto.multi-auth.views');
+        $this->commands('command.alaminfirdows.multi-auth.views');
     }
-
 }
