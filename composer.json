@@ -14,5 +14,12 @@
         "psr-4": {
             "AlAminFirdows\\MultiAuth\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlAminFirdows\\MultiAuth\\MultiAuthServiceProvider"
+            ]
+        }
     }
 }
